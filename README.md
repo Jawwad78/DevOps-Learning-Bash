@@ -23,21 +23,6 @@ The aim was to build a solid understanding of Bash so I can write safe, reusable
 
 ---
 
-
-## Repository Structure
-
-lessons/ # Scripts from each lesson (one per topic)
-extras/ # Additional practice or utility scripts
-README.md # This file
-
-
----
-
-
-Each script in this repo is written and tested manually — no copying.  
-Where needed, scripts include input checks and safe defaults to avoid unexpected behaviour.
-
----
 ## Key Takeaways
 
 - **Checksums are powerful** — using `md5sum` or `sha256sum`, this was probaly my favourite command, you can instantly detect if even a single character in a file has changed, just by comparing a number.
